@@ -6,14 +6,21 @@
 
 Seems like Gatsby Cloud will also easily allow us to host our website online for final presentations.
 
-## How to run this site to test it
-
-The following directions are summarized from [Gatsby documentation](https://www.gatsbyjs.com/docs/tutorial/part-1/#run-your-site-locally).
+## Setup
 
 In the terminal/command prompt:
+
+1. Install node.js then Gatsby (and git and an IDE if needed). Instructions on how to do that are [here](https://www.gatsbyjs.com/docs/tutorial/part-0/)
+
+2. Clone this repo.
+
+## How to run this site to test it
+
+In the terminal/command prompt:
+
 1. `cd` to the recyclingWebsite directory
-2. `> npm run develop`. 
-    - If this doesn't work, check the Gatsby documentation link above to troubleshoot.
+2. `> gatsby develop`. 
+    - If that doesn't work, you might have to do `npm install` and then try it again for it to work (that's what I had to do at least). Otherwise, check the [Gatsby documentation](https://www.gatsbyjs.com/docs/tutorial/part-1/#run-your-site-locally).
 3. Go to the localhost link provided in the output, probably <http://localhost:8000>. The website should be up and running on this link, ready to be tested.
 
 ## Website Features

@@ -2,7 +2,7 @@
 
 ## Gatsby and React
 
-[Gatsby](https://www.gatsbyjs.com/docs/) is just a tool that helps us develop our website without worrying about extraneous stuff. I'm gonna try to use to [React](https://reactjs.org/docs/getting-started.html), a library that uses Javascript to cleanly build a website/HTML elements. It's pretty straightforward and well-documented. There's probably a lot of 20-min youtube videos that explain the basics well.
+[Gatsby](https://www.gatsbyjs.com/docs/) is just a tool that helps us develop our website without worrying about extraneous stuff. I think we shoul try to use to [React](https://reactjs.org/docs/getting-started.html), a library that uses Javascript to cleanly build a website/HTML elements. It's pretty straightforward and well-documented. There's probably a lot of 20-min youtube videos that explain the basics well.
 
 Seems like Gatsby Cloud will also easily allow us to host our website online for final presentations.
 

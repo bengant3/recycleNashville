@@ -1,54 +1,22 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# recyclingWebsite
 
-## 🚀 Quick start
+## Gatsby and React
 
-1.  **Create a Gatsby site.**
+[Gatsby](https://www.gatsbyjs.com/docs/) is just a tool that helps us develop our website without worrying about extraneous stuff. I'm gonna try to use to [React](https://reactjs.org/docs/getting-started.html), a library that uses Javascript to cleanly build a website/HTML elements. It's pretty straightforward and well-documented. There's probably a lot of 20-min youtube videos that explain the basics well.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+Seems like Gatsby Cloud will also easily allow us to host our website online for final presentations.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+## How to run this site to test it
 
-2.  **Start developing.**
+The following directions are summarized from [Gatsby documentation](https://www.gatsbyjs.com/docs/tutorial/part-1/#run-your-site-locally).
 
-    Navigate into your new site’s directory and start it up.
+In the terminal/command prompt:
+1. `cd` to the recyclingWebsite directory
+2. `> npm run develop`. 
+    - If this doesn't work, check the Gatsby documentation link above to troubleshoot.
+3. Go to the localhost link provided in the output, probably <http://localhost:8000>. The website should be up and running on this link, ready to be tested.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+## Website Features
+1. Interactice (?) information session about what can and can't be recycled.
+2. A quiz to test knowledge.
+3. A tool that uses location data to direct users to their nearest recycling center.

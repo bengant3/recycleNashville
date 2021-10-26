@@ -16,6 +16,8 @@ In the terminal/command prompt:
     - If this doesn't work, check the Gatsby documentation link above to troubleshoot.
 3. Go to the localhost link provided in the output, probably <http://localhost:8000>. The website should be up and running on this link, ready to be tested.
 
+You should see saved changes instantly show up while running the development bundle. If they don't, try `Cmd/Ctrl + C` in the terminal to restart the development bundle.
+
 ## Website Features
 1. Interactice (?) information session about what can and can't be recycled.
 2. A quiz to test knowledge.

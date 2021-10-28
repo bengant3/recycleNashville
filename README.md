@@ -27,7 +27,17 @@ You should see saved changes instantly show up while running the development bun
 
 If you have any troubles with node modules/libraries/something not installed let me (Ben) know. I can definitely help.
 
-## Website Features
+## Navigation on Localhost
+From Gatsby Documentation: 
+> Gatsby core automatically turns React components in src/pages into pages with URLs. For example, components at src/pages/index.js and src/pages/about.js would automatically create pages from those filenames for the site’s index page (/) and /about.
+
+So localhost:8000 will show index.js, localhost:8000/quiz will automatically show quiz.js, etc.
+
+## Website Features (to implement)
 1. Interactice (?) information session about what can and can't be recycled.
 2. A quiz to test knowledge.
 3. A tool that uses location data to direct users to their nearest recycling center.
+
+## Helpful Links
+- [HTML/CSS Flexboxes](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Reference for making a quiz app](https://www.youtube.com/watch?v=ETNv7en7DBU&ab_channel=KindsonTheTechPro)

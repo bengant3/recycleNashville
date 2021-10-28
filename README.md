@@ -25,6 +25,8 @@ In the terminal/command prompt:
 
 You should see saved changes instantly show up while running the development bundle. If they don't, try `Cmd/Ctrl + C` in the terminal to restart the development bundle.
 
+If you have any troubles with node modules/libraries/something not installed let me (Ben) know. I can definitely help.
+
 ## Website Features
 1. Interactice (?) information session about what can and can't be recycled.
 2. A quiz to test knowledge.

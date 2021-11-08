@@ -1,20 +1,30 @@
 import * as React from "react"
 //import ReactDOM from 'react-dom';
-import Homepage from "./HomePage"
+//import Homepage from "./HomePage"
 
 class HomePageButton extends React.Component {
     constructor(props) {
         super(props)
-        // this.state = {
-        //     label: "My Button"
-        // }
+        this.state = {
+            hovered: false,
+        }
     }
     render() {
         return (
-            <button style={mainButton}>
-                <div style = {mainButtonContent}>
-                    <img src = {this.props.image} width="100" height="100"/>
-                    <text>{this.props.label}</text>
+            <button 
+                style={hpButton}
+                onMouseOver ={() => this.setState({ hovered: true })}
+                onMouseOut={() => this.setState({ hovered: false })}
+                onClick={event =>  window.location.href='/Information'}>
+                <div style = {hpButtonContent}>
+                    <img 
+                        src = {this.props.image} 
+                        alt = {this.props.alt}
+                        width="100" height="100"/>
+                    <text
+                        style = {hpButtonText}>
+                        {this.props.label}
+                    </text>
                 </div>
             </button>
         )
@@ -24,21 +34,24 @@ class HomePageButton extends React.Component {
 const IndexPage = () => {
     return (
         <main>
-            <view style={pageStyles}>
+            <div style={pageStyles}>
                 <title>Home Page</title>
                 <h1>Recycling in Nashville</h1>
                 <div style={buttonContainer}>
                     <HomePageButton
-                        label={"Learn about recycling"}
-                        image={"https://raw.githubusercontent.com/bengant3/recyclingWebsite/main/src/images/recycle.png"}/>
+                        label="Learn about recycling"
+                        image="https://raw.githubusercontent.com/bengant3/recyclingWebsite/main/src/images/recycle.png"
+                        alt="Recycling Logo"/>
                     <HomePageButton
-                        label={"Recycling Quiz"}
-                        image={"https://raw.githubusercontent.com/bengant3/recyclingWebsite/main/src/images/clipboard.png"}/>
+                        label="Recycling Quiz"
+                        image="https://raw.githubusercontent.com/bengant3/recyclingWebsite/main/src/images/clipboard.png"
+                        alt="Quiz Logo"/>
                     <HomePageButton
-                        label={"Find me a Recycling Center"}
-                        image={"https://raw.githubusercontent.com/bengant3/recyclingWebsite/main/src/images/location.png"}/>
+                        label="Find me a Recycling Center"
+                        image="https://raw.githubusercontent.com/bengant3/recyclingWebsite/main/src/images/location.png"
+                        alt="Location Logo"/>
                 </div>
-            </view>
+            </div>
         </main>
     )
 }
@@ -65,27 +78,41 @@ export default IndexPage
 
 // styles
 const pageStyles = {
-    color: "#232129",
-    //width: "60%",
-    margin: "20%",
+    color: "darkgreen",
+    height: 500,
+    width: "60%",
+    marginTop: "10%",
+    marginLeft: "20%",
     fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 
 const buttonContainer = {
     display: "flex",
-    justifyContent: "spaceBetween"
+    height: "80%",
+    justifyContent: "spaceBetween",
+    alignContent: "stretch",
 }
 
-const mainButton = {
-    color: "#fff",
-    border: 3,
+const hpButton = {
+    //color: this.state.bgColor,
+    border: 10,
     borderRadius: 20,
+    flexGrow: 1,
+    flexBasis: 1,
+    //margin: 10,
+    //height: 400,
 }
 
-const mainButtonContent = {
+const hpButtonContent = {
     display: "flex",
     flexDirection: "column",
-    alignItems: "center"
+    alignItems: "center",
+    justifyContent: "spaceBetween",
+}
+
+const hpButtonText = {
+    fontSize: 18,
+    color: "black",
 }
 
 // Recycling, recycling paper, clipboard icons made by Freepik from www.flaticon.com

@@ -31,10 +31,10 @@ If you have any troubles with node modules/libraries/something not installed let
 From Gatsby Documentation: 
 > Gatsby core automatically turns React components in src/pages into pages with URLs. For example, components at src/pages/index.js and src/pages/about.js would automatically create pages from those filenames for the site’s index page (/) and /about.
 
-So localhost:8000 will show index.js, localhost:8000/quiz will automatically show quiz.js, etc.
+So localhost:8000 will show index.js, localhost:8000/Information will automatically show Information.js, etc. It is case sensitive.
 
 ## Website Features (to implement)
-1. Interactice (?) information session about what can and can't be recycled.
+1. Interactive (?) information session about what can and can't be recycled.
 2. A quiz to test knowledge.
 3. A tool that uses location data to direct users to their nearest recycling center.
 

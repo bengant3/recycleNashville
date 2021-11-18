@@ -1,21 +1,23 @@
 import * as React from "react"
 //import ReactDOM from 'react-dom';
 //import Homepage from "./HomePage"
+import Header from "../Components/Header"
 
 class HomePageButton extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
             hovered: false,
+            pageDest: this.props.dest,
         }
     }
     render() {
         return (
             <button 
-                style={hpButton}
+                style={this.state.hovered ? hpButton : hpButtonHovered}
                 onMouseOver ={() => this.setState({ hovered: true })}
                 onMouseOut={() => this.setState({ hovered: false })}
-                onClick={event =>  window.location.href='/Information'}>
+                onClick={() =>  window.location.href='/'+this.state.pageDest}>
                 <div style = {hpButtonContent}>
                     <img 
                         src = {this.props.image} 
@@ -34,6 +36,7 @@ class HomePageButton extends React.Component {
 const IndexPage = () => {
     return (
         <main>
+            <Header Title="Recycle Nashville"/>
             <div style={pageStyles}>
                 <title>Home Page</title>
                 <h1>Recycling in Nashville</h1>
@@ -41,15 +44,21 @@ const IndexPage = () => {
                     <HomePageButton
                         label="Learn about recycling"
                         image="https://raw.githubusercontent.com/bengant3/recyclingWebsite/main/src/images/recycle.png"
-                        alt="Recycling Logo"/>
+                        alt="Recycling Logo"
+                        dest="Information"
+                        />
                     <HomePageButton
                         label="Recycling Quiz"
                         image="https://raw.githubusercontent.com/bengant3/recyclingWebsite/main/src/images/clipboard.png"
-                        alt="Quiz Logo"/>
+                        alt="Quiz Logo"
+                        dest="Quiz"
+                        />
                     <HomePageButton
                         label="Find me a Recycling Center"
                         image="https://raw.githubusercontent.com/bengant3/recyclingWebsite/main/src/images/location.png"
-                        alt="Location Logo"/>
+                        alt="Location Logo"
+                        dest="RecyclingCenter"
+                        />
                 </div>
             </div>
         </main>
@@ -94,7 +103,17 @@ const buttonContainer = {
 }
 
 const hpButton = {
-    //color: this.state.bgColor,
+    color: "lightgray",
+    border: 10,
+    borderRadius: 20,
+    flexGrow: 1,
+    flexBasis: 1,
+    //margin: 10,
+    //height: 400,
+}
+
+const hpButtonHovered = {
+    color: "gray",
     border: 10,
     borderRadius: 20,
     flexGrow: 1,

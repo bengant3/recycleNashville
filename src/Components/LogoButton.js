@@ -15,9 +15,9 @@ class LogoButton extends React.Component {
                 onClick={() =>  window.location.href='/'}>
                 <div>
                     <img 
-                        src = {"https://raw.githubusercontent.com/bengant3/recycleNashville/main/src/images/recycleNashvilleLogo_45deg.png"} 
+                        src = {"https://raw.githubusercontent.com/bengant3/recycleNashville/main/src/images/logo%26Text.png"}
                         alt = {"Recycle Nashville Logo"}
-                        height="80"/>
+                        height="100"/>
                 </div>
             </button>
         )

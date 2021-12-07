@@ -36,7 +36,7 @@ class HomePageButton extends React.Component {
 const IndexPage = () => {
     return (
         <main>
-            <Header Title="Recycle Nashville"/>
+            <Header title="Recycle Nashville"/>
             <div style={pageStyles}>
                 <title>Home Page</title>
                 <h1>Recycling in Nashville</h1>

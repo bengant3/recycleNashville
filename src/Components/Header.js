@@ -2,14 +2,13 @@
 import * as React from "react"
 import LogoButton from "./LogoButton"
 
-const Header = (Title) => {
+const Header = (props) => {
     return(
         <div style={headerStyle}>
+
             <div style = {contentContainer}>
                 <LogoButton />
-                <text>
-                    {Title}
-                </text>
+                <h1>{props.title}</h1>
             </div>
         </div>
     )

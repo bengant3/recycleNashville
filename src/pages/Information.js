@@ -43,6 +43,7 @@ function Info(props) {
                 <br/>
                 <h2>{textArr[28]}</h2>
                 <p>{textArr[29]}</p>
+                <br/>
             </div>
         </div>
     );

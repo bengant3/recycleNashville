@@ -8,11 +8,38 @@ function Info(props) {
             <Navbar/>
             <h1>Recycling</h1>
             <br/>
-            <h2>Section 1</h2>
-            <p>{textArr[0]}</p>
-            <p>Text</p>
-            <p>hello</p>
-            <h2>Section 2</h2>
+            <h2>{textArr[0]}</h2>
+            <p>{textArr[1]}</p>
+            <br/>
+            <h3>{textArr[2]}</h3>
+            <p>{textArr[3]}</p>
+            <p>{textArr[4]}</p>
+            <p>{textArr[5]}</p>
+            <p>{textArr[6]}</p>
+            <p>{textArr[7]}</p>
+            <p>{textArr[8]}</p>
+            <p>{textArr[9]}</p>
+            <p>{textArr[10]}</p>
+            <p>{textArr[11]}</p>
+            <p>{textArr[12]}</p>
+            <p>{textArr[13]}</p>
+            <p>{textArr[14]}</p>
+            <p>{textArr[15]}</p>
+            <p>{textArr[16]}</p>
+            <p>{textArr[17]}</p>
+            <p>{textArr[18]}</p>
+            <p>{textArr[19]}</p>
+            <p>{textArr[20]}</p>
+            <p>{textArr[21]}</p>
+            <p>{textArr[22]}</p>
+            <p>{textArr[23]}</p>
+            <p>{textArr[24]}</p>
+            <p>{textArr[25]}</p>
+            <p>{textArr[26]}</p>
+            <p>{textArr[27]}</p>
+            <br/>
+            <h4>{textArr[28]}</h4>
+            <p>{textArr[29]}</p>
         </div>
     );
 }

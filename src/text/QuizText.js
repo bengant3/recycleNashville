@@ -2,11 +2,10 @@
 import React from 'react';
 
 const quizTextArr = [
-    'one',
-    'two',
-    'three',
-    'four',
-    'five',
+    [2,'question','feedback', 'correct answer','answer2'],
+    [2,'question','feedback', 'correct answer','answer2'],
+    [4,'question','feedback', 'correct answer','answer2','answer3','answer4'],
+    'etc..'
 ]
 
 export default quizTextArr;

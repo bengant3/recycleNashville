@@ -1,5 +1,6 @@
 import React from 'react';
 import textArr from '../text/InfoPageText';
+import Navbar from '../Components/Navbar/Navbar.js'
 
 function Info(props) {
     return(

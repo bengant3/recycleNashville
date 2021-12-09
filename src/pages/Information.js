@@ -1,5 +1,5 @@
 import React from 'react';
-import myInfoText from '../text/InfoPageText';
+import textArr from '../text/InfoPageText';
 
 function Info(props) {
     return(
@@ -7,9 +7,9 @@ function Info(props) {
             <h1>Recycling</h1>
             <br/>
             <h2>Section 1</h2>
+            <p>{textArr[0]}</p>
             <p>Text</p>
-            <p>Text</p>
-            <p>{myInfoText}</p>
+            <p>hello</p>
             <h2>Section 2</h2>
             {/* <p>{text[1]}</p>
             <p>{text[2]}</p>

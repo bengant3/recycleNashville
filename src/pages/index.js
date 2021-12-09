@@ -1,57 +1,65 @@
-import * as React from "react"
+import React, { useState } from "react"
 //import ReactDOM from 'react-dom';
 //import Homepage from "./HomePage"
 import Header from "../Components/Header"
+import Navbar from "../Components/Navbar/Navbar.js"
 
-class HomePageButton extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            hovered: false,
-            pageDest: this.props.dest,
-        }
-    }
-    render() {
-        return (
-            <button 
-                style={this.state.hovered ? hpButton : hpButtonHovered}
-                onMouseOver ={() => this.setState({ hovered: true })}
-                onMouseOut={() => this.setState({ hovered: false })}
-                onClick={() =>  window.location.href='/'+this.state.pageDest}>
-                <div style = {hpButtonContent}>
-                    <img 
-                        src = {this.props.image} 
-                        alt = {this.props.alt}
-                        width="100" height="100"/>
-                    <text
-                        style = {hpButtonText}>
-                        {this.props.label}
-                    </text>
-                </div>
-            </button>
-        )
-    }
+const HomePageButton = ({image, alt, label, clickDest}) => {
+    const [hovered, setHovered] = useState(false);
+    const [dest, setDest] = useState(clickDest);
+    return (
+        <button 
+            style={hovered ? hpButton : hpButtonHovered}
+            onMouseOver ={() => setHovered(true)}
+            onMouseOut={() => setHovered(false)}
+            onClick={() =>  window.location.href='/'+clickDest}>
+            <div style = {hpButtonContent}>
+                <img 
+                    src = {image} 
+                    alt = {alt}
+                    width="100" height="100"/>
+                <text
+                    style = {hpButtonText}>
+                    {label}
+                </text>
+            </div>
+        </button>
+    )
+
 }
 
 const IndexPage = () => {
     return (
         <main>
-            <Header title="Recycle Nashville"/>
+            <div className='header'>
+                <div>
+                    <Navbar/>
+                </div>
+            </div>
+
+            <title>Home Page</title>
+
+                <div style={welcome}>
+                    
+                </div>
+            
             <div style={pageStyles}>
-                <title>Home Page</title>
-                <h1>Recycling in Nashville</h1>
+                <h1> Welcome to Recycle Nashville!</h1>
+                <p1>Description of website...</p1>
+
+
                 <div style={buttonContainer}>
                     <HomePageButton
                         label="Learn about recycling"
                         image="https://raw.githubusercontent.com/bengant3/recyclingWebsite/main/src/images/recycle.png"
                         alt="Recycling Logo"
-                        dest="Information"
+                        clickDest="Information"
                         />
                     <HomePageButton
                         label="Recycling Quiz"
                         image="https://raw.githubusercontent.com/bengant3/recyclingWebsite/main/src/images/clipboard.png"
                         alt="Quiz Logo"
-                        dest="Quiz"
+                        clickDest="Quiz"
                         />
                     <HomePageButton
                         label="Find me a Recycling Center"
@@ -95,6 +103,11 @@ const pageStyles = {
     fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 
+const welcome = {
+    alignContent: "center",
+    color: "purple"
+}
+
 const buttonContainer = {
     display: "flex",
     height: "80%",
@@ -108,7 +121,7 @@ const hpButton = {
     borderRadius: 20,
     flexGrow: 1,
     flexBasis: 1,
-    //margin: 10,
+    margin: 10,
     //height: 400,
 }
 
@@ -118,7 +131,7 @@ const hpButtonHovered = {
     borderRadius: 20,
     flexGrow: 1,
     flexBasis: 1,
-    //margin: 10,
+    margin: 10,
     //height: 400,
 }
 
@@ -132,6 +145,12 @@ const hpButtonContent = {
 const hpButtonText = {
     fontSize: 18,
     color: "black",
+}
+
+const headerButtons = {
+    fontsize: 22,
+    color: "gray",
+    alignItems: "right",
 }
 
 // Recycling, recycling paper, clipboard icons made by Freepik from www.flaticon.com

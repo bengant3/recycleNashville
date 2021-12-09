@@ -4,6 +4,7 @@ import textArr from '../text/InfoPageText';
 function Info(props) {
     return(
         <div style = {pageStyles}>
+            <Navbar/>
             <h1>Recycling</h1>
             <br/>
             <h2>Section 1</h2>
@@ -11,9 +12,6 @@ function Info(props) {
             <p>Text</p>
             <p>hello</p>
             <h2>Section 2</h2>
-            {/* <p>{text[1]}</p>
-            <p>{text[2]}</p>
-            <p>{text[3]}</p> */}
         </div>
     );
 }

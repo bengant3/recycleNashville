@@ -57,7 +57,7 @@ const pageStyles = {
     width: "60%",
     marginTop: "10%",
     marginLeft: "20%",
-    fontFamily: "-apple-system, Roboto, sans-serif, serif",
+    fontFamily: "-apple-system, Monserat, sans-serif, serif",
 }
 
 const title= {

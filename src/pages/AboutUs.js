@@ -9,8 +9,9 @@ function Info(props) {
             <div style = {pageStyles}>
                 <h1>About Us</h1>
                 <br/>
-                <h2>Section 1</h2>
-                <p>This is a group project for CS 3281 - Computing and the Environment. Created by Ben Gant, Rachel Lee, and Rachel Simkovic.</p>
+                <h2>This Project</h2>
+                <br/>
+                <p>Our names are Ben Gant, Rachel Lee, and Rachel Simkovic and this project is part of our CS 3891 Special Topics - Computing and the Environment class at Vanderbilt University. We were tasked with finding some way to use technology towards sustainability goals and decided we would create a website aimed at informing about and encouraging the act of recycling. Our hope is that the information on this website will help clear up misconceptions about recycling and therefore allow people to become more effective recyclers. </p>
             </div>
         </div>
     );

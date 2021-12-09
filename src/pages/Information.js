@@ -4,20 +4,20 @@ import Navbar from "../Components/Navbar/Navbar.js"
 
 function Info(props) {
     return(
-        
-
-        <div style = {pageStyles}>
+        <div>
             <Navbar/>
-            <h1>Recycling</h1>
-            <br/>
-            <h2>Section 1</h2>
-            <p>Text</p>
-            <p>Text</p>
-            <p>{myInfoText}</p>
-            <h2>Section 2</h2>
-            {/* <p>{text[1]}</p>
-            <p>{text[2]}</p>
-            <p>{text[3]}</p> */}
+            <div style = {pageStyles}>
+                <h1>Recycling</h1>
+                <br/>
+                <h2>Section 1</h2>
+                <p>Text</p>
+                <p>Text</p>
+                <p>{myInfoText}</p>
+                <h2>Section 2</h2>
+                {/* <p>{text[1]}</p>
+                <p>{text[2]}</p>
+                <p>{text[3]}</p> */}
+            </div>
         </div>
     );
 }

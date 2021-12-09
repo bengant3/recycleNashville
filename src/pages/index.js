@@ -2,6 +2,7 @@ import * as React from "react"
 //import ReactDOM from 'react-dom';
 //import Homepage from "./HomePage"
 import Header from "../Components/Header"
+import Navbar from "../Components/Navbar/Navbar.js"
 
 class HomePageButton extends React.Component {
     constructor(props) {
@@ -36,10 +37,23 @@ class HomePageButton extends React.Component {
 const IndexPage = () => {
     return (
         <main>
-            <Header title="Recycle Nashville"/>
+            <div className='header'>
+                <div>
+                    <Navbar/>
+                </div>
+            </div>
+
+            <title>Home Page</title>
+
+                <div style={welcome}>
+                    
+                </div>
+            
             <div style={pageStyles}>
-                <title>Home Page</title>
-                <h1>Recycling in Nashville</h1>
+                <h1> Welcome to Recycle Nashville!</h1>
+                <p1>Description of website...</p1>
+
+
                 <div style={buttonContainer}>
                     <HomePageButton
                         label="Learn about recycling"
@@ -95,6 +109,11 @@ const pageStyles = {
     fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 
+const welcome = {
+    alignContent: "center",
+    color: "purple"
+}
+
 const buttonContainer = {
     display: "flex",
     height: "80%",
@@ -132,6 +151,12 @@ const hpButtonContent = {
 const hpButtonText = {
     fontSize: 18,
     color: "black",
+}
+
+const headerButtons = {
+    fontsize: 22,
+    color: "gray",
+    alignItems: "right",
 }
 
 // Recycling, recycling paper, clipboard icons made by Freepik from www.flaticon.com

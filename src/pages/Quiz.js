@@ -1,5 +1,6 @@
 import React, { Component, useState } from 'react';
 import Header from "../Components/Header.js"
+import Navbar from "../Components/Navbar/Navbar.js"
 
 const Quiz = () => {
 
@@ -105,7 +106,8 @@ const AnswerButton = ({number, text, isCorrect, callBack}) => {
 const QuizPage = (props) => {
     return(
         <div>
-            <Header />
+            <Navbar />
+            <br />
             <Quiz />
         </div>
     );

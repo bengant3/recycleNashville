@@ -1,23 +1,17 @@
 import React from 'react';
-import myInfoText from '../text/InfoPageText';
 import Navbar from "../Components/Navbar/Navbar.js"
 
 function Info(props) {
     return(
-        
-
-        <div style = {pageStyles}>
+        <div>
             <Navbar/>
-            <h1>Recycling</h1>
-            <br/>
-            <h2>Section 1</h2>
-            <p>Text</p>
-            <p>Text</p>
-            <p>{myInfoText}</p>
-            <h2>Section 2</h2>
-            {/* <p>{text[1]}</p>
-            <p>{text[2]}</p>
-            <p>{text[3]}</p> */}
+            
+            <div style = {pageStyles}>
+                <h1>About Us</h1>
+                <br/>
+                <h2>Section 1</h2>
+                <p>This is a group project for CS 3281 - Computing and the Environment. Created by Ben Gant, Rachel Lee, and Rachel Simkovic.</p>
+            </div>
         </div>
     );
 }
@@ -31,12 +25,13 @@ const pageStyles = {
     width: "60%",
     marginTop: "10%",
     marginLeft: "20%",
-    fontFamily: "-apple-system, Roboto, sans-serif, serif",
+    fontFamily: "Montserrat, sans-serif",
 }
 
 const title= {
     color: "green",
     fontSize: 32,
+    
 };
 
 const header= {

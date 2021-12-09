@@ -14,7 +14,7 @@ function Info(props) {
                 <h2>{textArr[0]}</h2>
                 <p>{textArr[1]}</p>
                 <br/>
-                <h3>{textArr[2]}</h3>
+                <h2>{textArr[2]}</h2>
                 <p>{textArr[3]}</p>
                 <p>{textArr[4]}</p>
                 <p>{textArr[5]}</p>
@@ -41,7 +41,7 @@ function Info(props) {
                 <p>{textArr[26]}</p>
                 <p>{textArr[27]}</p>
                 <br/>
-                <h4>{textArr[28]}</h4>
+                <h2>{textArr[28]}</h2>
                 <p>{textArr[29]}</p>
             </div>
         </div>

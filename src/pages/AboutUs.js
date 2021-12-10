@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from "../Components/Navbar/Navbar.js"
+import Footer from "../Components/Footer/index.js"
 
 function Info(props) {
     return(
@@ -15,6 +16,8 @@ function Info(props) {
                 <br/>
                 <h2>Recycling is something that is very easy to do, but it is also very easy to mess up. Once given proper information good recycling habits can be formed and then are easy to maintain. </h2>
             </div>
+
+            <Footer/>
         </div>
     );
 }

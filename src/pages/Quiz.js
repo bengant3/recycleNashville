@@ -1,6 +1,7 @@
 import React, { Component, useState } from 'react';
 import Header from "../Components/Header.js"
 import Navbar from "../Components/Navbar/Navbar.js"
+import Footer from "../Components/Footer/index.js"
 
 const Quiz = (callBack) => {
 
@@ -152,6 +153,8 @@ const QuizPage = (props) => {
             <Navbar />
             <br />
             <Quiz />
+            <br/>
+            <Footer />
         </div>
     );
 }

@@ -4,22 +4,27 @@ import React from 'react';
 import Header from "../Components/Header/Header.js"
 import Footer from "../Components/Footer/Footer.js"
 
-function RecyclingLocator(props) {
+function Info(props) {
     return (
         <main>
             <div>
                     <Header/>
                     <br/>
                     <h1>Find a Recycling Center</h1>
+                    <p>
+                    https://goo.gl/maps/pSnrZYaxHCyqeCf39
+                    </p>
+        
                     <br/>
                     <Footer/>
+
+                    
                 </div>
         </main>
 
     );
 }
 
-export default RecyclingLocator;
+export default Info;
 
 //styles
-

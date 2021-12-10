@@ -9,7 +9,17 @@ const WelcomeSection = () => {
             <Title>
                 <h1>Welcome to Recycle Nashville!</h1>
                 <p>
-                    Description of website...
+                    We want to teach you something new about recycling.
+                </p>
+                <br/>
+                <p>
+                    To visit our information page click "Learn about recylcling".
+                </p>
+                <p>
+                    Confident in your knowledge? Prove it, take our quiz at "Recylcing quiz".
+                </p>
+                <p>
+                    If you are looking to find a recycling center near you, go to "Find me a recycling center"
                 </p>
             </Title>
         </Wrapper>
@@ -18,7 +28,7 @@ const WelcomeSection = () => {
 
 export default WelcomeSection;
 const Title = styled.h1`
-    font-size: 1.5em;
+    font-size: 0.05 em;
     text-align:center;
     color: black;
 `

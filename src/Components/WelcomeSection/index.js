@@ -43,5 +43,5 @@ const titleStyle = {
 }
 
 const bodyStyle = {
-    fontSize: 70
+    fontSize: 17
 }

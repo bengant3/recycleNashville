@@ -10,7 +10,8 @@ class Navbar extends React.Component {
                         <img 
                             src = {"https://raw.githubusercontent.com/bengant3/recycleNashville/main/src/images/logo%26Text.png"}
                             alt = {"Recycle Nashville Logo"}
-                            height="60"/>
+                            height="60"
+                            onClick={() =>  window.location.href='/'}/>
                 </h1>
 
                 <ul className="nav-menu">

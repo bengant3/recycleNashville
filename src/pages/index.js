@@ -3,6 +3,9 @@ import React, { useState } from "react"
 //import Homepage from "./HomePage"
 import Header from "../Components/Header"
 import Navbar from "../Components/Navbar/Navbar.js"
+import Footer from "../Components/Footer"
+import WelcomeSection from "../Components/WelcomeSection"
+import styled from 'styled-components'
 
 const HomePageButton = ({image, alt, label, clickDest}) => {
     const [hovered, setHovered] = useState(false);
@@ -32,22 +35,16 @@ const IndexPage = () => {
     return (
         <main>
             <div className='header'>
-                <div>
                     <Navbar/>
-                </div>
             </div>
 
             <title>Home Page</title>
-
-                <div style={welcome}>
-                    
-                </div>
             
             <div style={pageStyles}>
-                <h1> Welcome to Recycle Nashville!</h1>
-                <p1>Description of website...</p1>
-
-
+                <div className='Welcome-Text'>
+                    <WelcomeSection/>
+                </div>
+                
                 <div style={buttonContainer}>
                     <HomePageButton
                         label="Learn about recycling"
@@ -68,6 +65,12 @@ const IndexPage = () => {
                         dest="RecyclingCenter"
                         />
                 </div>
+
+                
+            </div>
+
+            <div>
+                <Footer/>
             </div>
         </main>
     )
@@ -95,22 +98,17 @@ export default IndexPage
 
 // styles
 const pageStyles = {
-    color: "darkgreen",
+    color: "black",
     height: 500,
     width: "60%",
-    marginTop: "10%",
+    marginTop: "7%",
     marginLeft: "20%",
     fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 
-const welcome = {
-    alignContent: "center",
-    color: "purple"
-}
-
 const buttonContainer = {
     display: "flex",
-    height: "80%",
+    height: "40%",
     justifyContent: "spaceBetween",
     alignContent: "stretch",
 }

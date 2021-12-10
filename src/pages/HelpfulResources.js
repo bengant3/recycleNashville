@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from "../Components/Navbar/Navbar.js"
+import Footer from "../Components/Footer/index.js"
 
 function Info(props) {
     return(
@@ -47,6 +48,8 @@ function Info(props) {
                     <a href="https://lbre.stanford.edu/pssistanford-recycling/frequently-asked-questions/frequently-asked-questions-benefits-recycling">Frequently Asked Questions on the Benefits of Recycling</a>
                 </p>
             </div>
+
+            <Footer/>
         </div>
     );
 }

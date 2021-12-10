@@ -1,6 +1,7 @@
 import React from 'react';
 import textArr from '../text/InfoPageText';
 import Navbar from '../Components/Navbar/Navbar.js'
+import Footer from "../Components/Footer/index.js"
 
 function Info(props) {
     return(
@@ -45,6 +46,8 @@ function Info(props) {
                 <p>{textArr[29]}</p>
                 <br/>
             </div>
+
+            <Footer/>
         </div>
     );
 }

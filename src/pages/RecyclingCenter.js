@@ -9,17 +9,19 @@ function Info(props) {
         <main>
             <div>
                     <Header/>
-                    <br/>
-                    <h1>Find a Recycling Center</h1>
-                    <p>
-                    https://goo.gl/maps/pSnrZYaxHCyqeCf39
-                    </p>
-        
-                    <br/>
+                    <div style = {pageStyles}>
+                        <br/>
+                        <h1>Find a Recycling Center</h1>
+                        <p>
+                        https://goo.gl/maps/pSnrZYaxHCyqeCf39
+                        </p>
+            
+                        <br/>
+                    </div>
                     <Footer/>
 
                     
-                </div>
+            </div>
         </main>
 
     );
@@ -28,3 +30,12 @@ function Info(props) {
 export default Info;
 
 //styles
+const pageStyles = {
+    color: "black",
+    height: 500,
+    width: "60%",
+    marginTop: "5%",
+    marginBottom: "10%",
+    marginLeft: "20%",
+    fontFamily: "-apple-system, Roboto, sans-serif, serif",
+}

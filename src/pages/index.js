@@ -1,12 +1,9 @@
 //home page of the website
 
 import React, { useState } from "react"
-//import ReactDOM from 'react-dom';
-//import Homepage from "./HomePage"
 import Header from "../Components/Header/Header.js"
 import Footer from "../Components/Footer/Footer"
 import WelcomeSection from "../Components/WelcomeSection"
-import styled from 'styled-components'
 
 //creates one of the buttons on the home page
 const HomePageButton = ({image, alt, label, clickDest}) => {
@@ -30,7 +27,6 @@ const HomePageButton = ({image, alt, label, clickDest}) => {
             </div>
         </button>
     )
-
 }
 
 const IndexPage = () => {

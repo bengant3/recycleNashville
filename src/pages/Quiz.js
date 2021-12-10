@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import Navbar from "../Components/Navbar/Navbar.js"
 import quizTextArr from "../text/QuizText.js"
+import Header from "../Components/Header/Header.js"
+import Footer from "../Components/Footer/Footer.js"
 
 const Quiz = (callBack) => {
 
@@ -287,9 +288,11 @@ const QuizPage = () => {
 
     return(
         <div>
-            <Navbar />
+            <Header />
             <br />
             <Quiz />
+            <br/>
+            <Footer />
         </div>
     );
 }

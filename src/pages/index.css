@@ -1,0 +1,14 @@
+/*
+attempt to put a background color behind the buttons on the home page(not successful)
+*/
+
+.buttonStuff {
+    background: rgb(30,184,76);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    font-family: 'Montserrat', sans-serif;
+}

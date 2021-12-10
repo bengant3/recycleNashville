@@ -1,4 +1,4 @@
-// Copyright 2021 Ben
+// Copyright 2021 Ben - not currently in use
 import * as React from "react"
 
 class LogoButton extends React.Component {

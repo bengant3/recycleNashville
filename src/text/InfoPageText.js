@@ -10,7 +10,7 @@ const textArr = [
     '2. Many coffee cups are not eligible for recycling because of a thin layer of polyethylene liner, which is what makes it waterproof → the best way to solve this is to use a reusable cup.',
     '3. Diapers are not recyclable.', 
     '4. Common non recyclables',
-    '   - Laminated pouches',
+    '- Laminated pouches',
     '   - Crisp bags',
     '   - Plastic toys',
     '   - Cotton wool',

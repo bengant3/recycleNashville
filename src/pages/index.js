@@ -103,7 +103,7 @@ const pageStyles = {
     color: "black",
     height: 500,
     width: "60%",
-    marginTop: "7%",
+    marginTop: "5%",
     marginLeft: "20%",
     fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }

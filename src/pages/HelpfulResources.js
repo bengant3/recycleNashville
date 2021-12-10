@@ -63,7 +63,7 @@ const pageStyles = {
     color: "darkgreen",
     height: 500,
     width: "60%",
-    marginTop: "10%",
+    marginTop: "5%",
     marginLeft: "20%",
     fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }

@@ -7,11 +7,11 @@ const quizTextArr = [
     [2,'Many coffee cups should not be recycled due to what makes them waterproof… ','True, these cups are made waterproof using a thin layer of polyethylene liner which makes it so that they shouldn’t be recycled. ', 'True','False'],
     [4,'Which of the following should typically be recycled…','Newspapers, the rest are common non recyclables that many believe are recycle safe.', 'Newspapers', 'Plastic toys','Toothpaste tubes','Cotton wool' ],
     [4,'What should one do before recycling a soap dispenser?','Remove the top, after the top has been removed, it is ready to be recycled','Remove the top','Nothing, it can be recycled as is','It can not be recycled ever','Take off all labels'],
-    [2,'Which color of plastic is often not recyclable?','Black','Clear']
+    [2,'Which color of plastic is often not recyclable?','Black plastic packaging is hard to recycle. Black plastic is recyclable, but waste sorting systems can\'t recognize black pigments. Even if black plastic is separated, it often ends up in landfill.','Black','Clear'],
     [2,'Can you recycle a grocery store plastic bag?','No, they are not recyclable.','No','Yes'],
     [4,'Can you recycle food waste?','No, food waste is never recyclable and it actually typically contaminates your whole bin if you put any in','No, never','Yes, always','Yes, most of the time','Yes, sometimes'],
-    [2,'Can glass be recycled?','Glass can absolutely be recycled, but only if the glass is not broken. In Nashville, it should be taken to specific centers meant to handle glass.','Yes','No']
-    [2,'Can I recycle a bettery?','No, batteries and other electrical products should be taken to household waste centers.','No','Yes'],
+    [2,'Can glass be recycled?','Glass can absolutely be recycled, but only if the glass is not broken. In Nashville, it should be taken to specific centers meant to handle glass.','Yes','No'],
+    [2,'Can I recycle a battery?','No, batteries and other electrical products should be taken to household waste centers.','No','Yes'],
     [4,'What is the first step of recycling?','Collection is the first step which can happen through curbside collection, drop off centers, deposit or refund programs, etc. Next comes processing.','Collection','Processing','Manufacturing','Purchasing'],
     [2,'Do the benefits of recycling outweight the obstacles?','Yes, when done correctly recycling is well worth it.','Yes','No'],
     [2,'Should a garden hose be recycled?','No, they regularly get caught around the sorting equipment and require the workers to manually cut them out.','No','Yes'],
@@ -21,7 +21,7 @@ const quizTextArr = [
     [2,'Can I put styrofoam in my curbside pick up?','No, it has to be taken to a drop off site.','No','Yes'],
     [2,'Can I recycle tissue/toilet paper?','No, the best course of action would be to switch to a reusable option.','No','Yes'],
     [2,'Can I put aluminum cans in my curbside pick up?','Yes, they just have to be clean.','Yes','No'],
-    [4,'Estimate the davidson county recycling contamination rate...','The contamination rate is at about 30% as of now. Definitely tons of room for improvement.','5%','10%','30%','50%']
+    [4,'Estimate the davidson county recycling contamination rate...','The contamination rate is at about 30% as of now. Definitely tons of room for improvement.','30%','5%','10%','50%']
 ]
 
 export default quizTextArr;

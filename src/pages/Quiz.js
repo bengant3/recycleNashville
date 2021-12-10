@@ -1,8 +1,7 @@
 //quiz on recycling/nashville recycling knowledge
 
 import React, { Component, useState } from 'react';
-import Header from "../Components/Header.js"
-import Navbar from "../Components/Navbar/Navbar.js"
+import Header from "../Components/Header/Header.js"
 import Footer from "../Components/Footer/Footer.js"
 
 const Quiz = (callBack) => {
@@ -152,7 +151,7 @@ const QuizPage = (props) => {
 
     return(
         <div>
-            <Navbar />
+            <Header />
             <br />
             <Quiz />
             <br/>

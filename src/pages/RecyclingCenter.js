@@ -1,14 +1,14 @@
 //recycling locator page
 
 import React from 'react';
-import Navbar from "../Components/Navbar/Navbar.js"
+import Header from "../Components/Header/Header.js"
 import Footer from "../Components/Footer/Footer.js"
 
 function RecyclingLocator(props) {
     return (
         <main>
             <div>
-                    <Navbar/>
+                    <Header/>
                     <br/>
                     <h1>Find a Recycling Center</h1>
                     <br/>

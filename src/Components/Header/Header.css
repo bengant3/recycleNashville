@@ -2,7 +2,7 @@
 styling for header
 */
 
-.NavbarItems {
+.HeaderItems {
     background: rgb(188, 218, 208);
     height: 70px;
     display: flex;
@@ -18,7 +18,7 @@ styling for header
 /*
 formatting for logo
 */
-.navbar-logo {
+.Header-logo {
     justify-self: start;
     margin-left: 5px;
 }

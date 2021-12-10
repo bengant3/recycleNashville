@@ -3,8 +3,7 @@
 import React, { useState } from "react"
 //import ReactDOM from 'react-dom';
 //import Homepage from "./HomePage"
-import Header from "../Components/Header"
-import Navbar from "../Components/Navbar/Navbar.js"
+import Header from "../Components/Header/Header.js"
 import Footer from "../Components/Footer/Footer"
 import WelcomeSection from "../Components/WelcomeSection"
 import styled from 'styled-components'
@@ -38,7 +37,7 @@ const IndexPage = () => {
     return (
         <main>
             <div className='header'>
-                    <Navbar/>
+                    <Header/>
             </div>
 
             <title>Home Page</title>

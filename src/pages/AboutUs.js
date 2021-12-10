@@ -1,13 +1,13 @@
 //about us page - who we are and why we made this website
 
 import React from 'react';
-import Navbar from "../Components/Navbar/Navbar.js"
+import Header from "../Components/Header/Header.js"
 import Footer from "../Components/Footer/Footer.js"
 
 function Info(props) {
     return(
         <div>
-            <Navbar/>
+            <Header/>
             
             <div style = {pageStyles}>
                 <h1>About Us</h1>

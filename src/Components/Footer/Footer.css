@@ -1,0 +1,47 @@
+.FooterElements {
+    background: rgb(236, 236, 236);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: absolute;
+    bottom:0;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 7%;
+}
+
+.footer-logo {
+    justify-self: start;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.fa-react {
+    margin-left: 0.5rem;
+}
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 50 px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.footer-links {
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.footer-links:hover {
+    background-color: rgb(150, 150, 150);
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+

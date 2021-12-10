@@ -14,9 +14,9 @@ const WelcomeSection = () => {
                 </p>
                 <br/>
                 <p style={bodyStyle}>
-                    To visit our information page click "Learn about recylcling".
+                    To visit our information page click "Learn about recycling".
                     <br/><br/>
-                    Confident in your knowledge? Prove it, take our quiz at "Recylcing quiz".
+                    Confident in your knowledge? Prove it, take our quiz at "Recycing quiz".
                     <br/><br/>
                     If you are looking to find a recycling center near you, go to "Find me a recycling center"
                 </p>

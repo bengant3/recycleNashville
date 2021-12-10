@@ -5,7 +5,7 @@ import React, { useState } from "react"
 //import Homepage from "./HomePage"
 import Header from "../Components/Header/Header.js"
 import Footer from "../Components/Footer/Footer"
-import WelcomeSection from "../Components/WelcomeSection"
+import WelcomeSection from "../Components/WelcomeSection/welcome"
 import styled from 'styled-components'
 
 //creates one of the buttons on the home page

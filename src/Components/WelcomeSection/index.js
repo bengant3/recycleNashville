@@ -11,8 +11,6 @@ const WelcomeSection = () => {
                 <p>
                     We want to teach you something new about recycling.
                     <br/>
-                    <br/>
-                    test
                 </p>
                 <br/>
                 <p style={bodyStyle}>

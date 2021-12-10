@@ -21,6 +21,7 @@ formatting for logo
 .Header-logo {
     justify-self: start;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 /*

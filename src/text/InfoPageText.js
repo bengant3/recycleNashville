@@ -11,7 +11,7 @@ const textArr = [
     '3. Diapers are not recyclable.', 
     '4. Common non recyclables',
     '- Laminated pouches',
-    '   - Crisp bags',
+    '   - Chip bags',
     '   - Plastic toys',
     '   - Cotton wool',
     '   - Toothpaste tubes',

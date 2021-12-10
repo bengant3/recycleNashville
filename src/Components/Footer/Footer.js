@@ -36,26 +36,3 @@ class Footer extends React.Component {
 }
 
 export default Footer
-/*
-const Footer = () => {
-    return (
-        <FooterContainer>
-            <FooterWrap>
-                <FooterLinksContainer>
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle> RecycleNashville </FooterLinkTitle>
-                        </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLink to="./"> Home </FooterLink>
-                            <FooterLink to="Quiz"> Quiz </FooterLink>
-                            <FooterLink to="Information"> Information </FooterLink>
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>
-                </FooterLinksContainer>
-            </FooterWrap>
-        </FooterContainer>
-    )
-}
-
-export default footer*/

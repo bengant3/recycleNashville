@@ -1,12 +1,15 @@
+//home page of the website
+
 import React, { useState } from "react"
 //import ReactDOM from 'react-dom';
 //import Homepage from "./HomePage"
 import Header from "../Components/Header"
 import Navbar from "../Components/Navbar/Navbar.js"
-import Footer from "../Components/Footer"
+import Footer from "../Components/Footer/Footer"
 import WelcomeSection from "../Components/WelcomeSection"
 import styled from 'styled-components'
 
+//creates one of the buttons on the home page
 const HomePageButton = ({image, alt, label, clickDest}) => {
     const [hovered, setHovered] = useState(false);
     const [dest, setDest] = useState(clickDest);

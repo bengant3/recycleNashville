@@ -1,8 +1,10 @@
+//recycling locator page
+
 import React from 'react';
 import Navbar from "../Components/Navbar/Navbar.js"
-import Footer from "../Components/Footer/index.js"
+import Footer from "../Components/Footer/Footer.js"
 
-function Info(props) {
+function RecyclingLocator(props) {
     return (
         <main>
             <div>
@@ -16,6 +18,8 @@ function Info(props) {
 
     );
 }
+
+export default RecyclingLocator;
 
 //styles
 

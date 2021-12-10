@@ -1,6 +1,8 @@
+//Helpful resources page - links if people want more information
+
 import React from 'react';
 import Navbar from "../Components/Navbar/Navbar.js"
-import Footer from "../Components/Footer/index.js"
+import Footer from "../Components/Footer/Footer.js"
 
 function Info(props) {
     return(

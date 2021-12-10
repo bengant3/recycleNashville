@@ -1,3 +1,5 @@
+//information for links on right of header
+
 export const MenuItems = [
     {
         title: 'Home',

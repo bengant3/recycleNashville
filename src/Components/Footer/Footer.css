@@ -1,3 +1,7 @@
+/*
+Styling for footer
+*/
+
 .FooterElements {
     background: rgb(236, 236, 236);
     height: 60px;
@@ -11,16 +15,18 @@
     margin-top: 7%;
 }
 
+/*
+formatting for recycle logo
+*/
 .footer-logo {
     justify-self: start;
     margin-left: 5px;
     cursor: pointer;
 }
 
-.fa-react {
-    margin-left: 0.5rem;
-}
-
+/*
+formatting for links in bottom right
+*/
 .footer-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -32,6 +38,9 @@
     margin-right: 2rem;
 }
 
+/*
+style for links in bottom right
+*/
 .footer-links {
     color: rgb(192, 192, 192);
     text-decoration: none;

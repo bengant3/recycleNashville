@@ -1,6 +1,8 @@
 import React from "react";
 import styled from 'styled-components'
 
+//creates the welcome section on the home page
+
 const WelcomeSection = () => {
     return (
         <Wrapper>

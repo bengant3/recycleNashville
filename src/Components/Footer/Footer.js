@@ -1,3 +1,7 @@
+/*
+creates the footer section
+*/
+
 import React, {Component} from 'react';
 import {FooterElements} from "./FooterElements"
 import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink } from './FooterElements';

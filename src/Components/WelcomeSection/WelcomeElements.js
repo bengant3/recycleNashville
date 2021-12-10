@@ -1,3 +1,5 @@
+//styles the welcome section on the home page
+
 import styled from 'styled-components'
 
 export const WelcomeContainer = styled.div`

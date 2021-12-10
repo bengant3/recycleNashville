@@ -12,9 +12,12 @@ function Info(props) {
                     <div style = {pageStyles}>
                         <br/>
                         <h1>Find a Recycling Center</h1>
-                        <p>
-                        https://goo.gl/maps/pSnrZYaxHCyqeCf39
-                        </p>
+                        <div>
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d51550.22567721737!2d-86.83825542896554!3d36.14491330516062!3m2!1i1024!2i768!4f13.1!2m1!1srecycling%20centers!5e0!3m2!1sen!2sus!4v1639178453922!5m2!1sen!2sus"
+                            style = {{width: 600, height: 450, border: 0}}
+                            allowfullscreen="" loading="lazy"></iframe>
+                        </div>
             
                         <br/>
                     </div>
@@ -37,5 +40,5 @@ const pageStyles = {
     marginTop: "5%",
     marginBottom: "10%",
     marginLeft: "20%",
-    fontFamily: "-apple-system, Roboto, sans-serif, serif",
+    fontFamily: "Trebuchet MS, sans-serif, serif",
 }

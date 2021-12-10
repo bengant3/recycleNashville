@@ -6,7 +6,7 @@ import Footer from "../Components/Footer/Footer.js"
 
 function Info(props) {
     return(
-        <div>
+        <div style={{fontFamily: "Trebuchet MS, sans-serif, serif"}}>
             <Header/>
             
             <div style = {pageStyles}>

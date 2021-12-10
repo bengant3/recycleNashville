@@ -10,7 +10,7 @@ import './Footer.css'
 class Footer extends React.Component {
     render() {
         return(
-            <nav className="FooterElements">
+            <nav className="FooterElements" style={{fontFamily: "Trebuchet MS, sans-serif, serif",}}>
                 <h1 className="footer-logo">
                         <img 
                             src = {"https://raw.githubusercontent.com/bengant3/recycleNashville/main/src/images/logo%26Text.png"}

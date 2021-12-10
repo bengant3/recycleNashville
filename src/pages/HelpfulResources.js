@@ -6,7 +6,7 @@ import Footer from "../Components/Footer/Footer.js"
 
 function Info(props) {
     return(
-        <div>
+        <div style={{fontFamily: "Trebuchet MS, sans-serif, serif"}}>
             <Header/>
             
             <div style = {pageStyles}>
@@ -70,7 +70,7 @@ const pageStyles = {
     marginTop: "5%",
     marginBottom: "10%",
     marginLeft: "20%",
-    fontFamily: "-apple-system, Roboto, sans-serif, serif",
+    fontFamily: "Trebuchet MS, sans-serif, serif"
 }
 
 const title= {

@@ -31,7 +31,7 @@ const HomePageButton = ({image, alt, label, clickDest}) => {
 
 const IndexPage = () => {
     return (
-        <main>
+        <main >
             <div className='header'>
                     <Header/>
             </div>
@@ -107,7 +107,7 @@ const pageStyles = {
     marginTop: "0%",
     marginLeft: "10%",
     marginBottom: "25%",
-    fontFamily: "-apple-system, Roboto, sans-serif, serif",
+    fontFamily: "Trebuchet MS, sans-serif, serif",
 }
 
 const buttonContainer = {
@@ -124,6 +124,7 @@ const hpButton = {
     flexGrow: 1,
     flexBasis: 1,
     margin: 10,
+    fontFamily: "Trebuchet MS, sans-serif, serif"
     //height: 400,
 }
 
@@ -134,6 +135,7 @@ const hpButtonHovered = {
     flexGrow: 1,
     flexBasis: 1,
     margin: 10,
+    fontFamily: "Trebuchet MS, sans-serif, serif"
     //height: 400,
 }
 

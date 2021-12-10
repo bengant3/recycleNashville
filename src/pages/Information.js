@@ -12,7 +12,7 @@ function Info(props) {
 
             <div style = {pageStyles}>
     
-                <h1>Recycling</h1>
+                <h1>General Recycling Information</h1>
                 <br/>
                 <h2>{textArr[0]}</h2>
                 <p>{textArr[1]}</p>

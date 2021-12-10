@@ -8,7 +8,7 @@ const WelcomeSection = () => {
         <Wrapper>
             <Title>
                 <h1 style={titleStyle}>Welcome to Recycle Nashville!</h1>
-                <p>
+                <p style={subHeading}>
                     We want to teach you something new about recycling.
                     <br/>
                 </p>
@@ -41,5 +41,10 @@ const titleStyle = {
 }
 
 const bodyStyle = {
+    color: "gray",
     fontSize: 17
+}
+
+const subHeading = {
+    color: "#6D6D6D"
 }

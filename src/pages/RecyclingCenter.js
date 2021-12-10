@@ -13,7 +13,7 @@ function Info(props) {
                         <br/>
                         <h1>Find a Recycling Center</h1>
                         <p>
-                        https://goo.gl/maps/pSnrZYaxHCyqeCf39
+                        <a href="https://goo.gl/maps/pSnrZYaxHCyqeCf39">Get directions to a center near you!</a>
                         </p>
             
                         <br/>

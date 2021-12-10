@@ -65,7 +65,12 @@ const IndexPage = () => {
                         image="https://raw.githubusercontent.com/bengant3/recyclingWebsite/main/src/images/location.png"
                         alt="Location Logo"
                         clickDest="RecyclingCenter"
+
                         />
+
+                        <p style={spacer}>
+                            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>.
+                        </p>
                 </div>
 
                 
@@ -152,6 +157,10 @@ const headerButtons = {
     fontsize: 22,
     color: "gray",
     alignItems: "right",
+}
+
+const spacer = {
+    color: "white"
 }
 
 // Recycling, recycling paper, clipboard icons made by Freepik from www.flaticon.com

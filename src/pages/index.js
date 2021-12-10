@@ -64,7 +64,7 @@ const IndexPage = () => {
                         label="Find me a Recycling Center"
                         image="https://raw.githubusercontent.com/bengant3/recyclingWebsite/main/src/images/location.png"
                         alt="Location Logo"
-                        dest="RecyclingCenter"
+                        clickDest="RecyclingCenter"
                         />
                 </div>
 
@@ -102,9 +102,9 @@ export default IndexPage
 const pageStyles = {
     color: "black",
     height: 500,
-    width: "60%",
-    marginTop: "7%",
-    marginLeft: "20%",
+    width: "80%",
+    marginTop: "0%",
+    marginLeft: "10%",
     fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 

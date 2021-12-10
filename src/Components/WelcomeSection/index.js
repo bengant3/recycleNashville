@@ -7,18 +7,19 @@ const WelcomeSection = () => {
     return (
         <Wrapper>
             <Title>
-                <h1>Welcome to Recycle Nashville!</h1>
+                <h1 style={titleStyle}>Welcome to Recycle Nashville!</h1>
                 <p>
                     We want to teach you something new about recycling.
+                    <br/>
+                    <br/>
+                    test
                 </p>
                 <br/>
-                <p>
+                <p style={bodyStyle}>
                     To visit our information page click "Learn about recylcling".
-                </p>
-                <p>
+                    <br/><br/>
                     Confident in your knowledge? Prove it, take our quiz at "Recylcing quiz".
-                </p>
-                <p>
+                    <br/><br/>
                     If you are looking to find a recycling center near you, go to "Find me a recycling center"
                 </p>
             </Title>
@@ -28,7 +29,6 @@ const WelcomeSection = () => {
 
 export default WelcomeSection;
 const Title = styled.h1`
-    font-size: 0.05 em;
     text-align:center;
     color: black;
 `
@@ -38,3 +38,10 @@ const Wrapper = styled.section`
     background: white;
     
 `
+const titleStyle = {
+    color: '#1eb84c'
+}
+
+const bodyStyle = {
+    fontSize: 70
+}

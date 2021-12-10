@@ -105,6 +105,7 @@ const pageStyles = {
     width: "80%",
     marginTop: "0%",
     marginLeft: "10%",
+    marginBottom: "25%",
     fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 

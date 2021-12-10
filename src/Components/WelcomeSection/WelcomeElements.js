@@ -3,7 +3,6 @@
 import styled from 'styled-components'
 
 export const WelcomeContainer = styled.div`
-    background: #0c0c0c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,8 +11,6 @@ export const WelcomeContainer = styled.div`
     position: relative;
     z-index: 1
     fontFamily:'Montserrat', sans-serif;
-    
-
 `
 
 export const WelcomeBg = styled.div`
@@ -25,12 +22,4 @@ export const WelcomeBg = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
-`
-
-export const PictureBg = styled.img`
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    background: #232a34;
 `

@@ -48,7 +48,11 @@ function Info(props) {
                 </p>
                 <p>
                     <a href="https://lbre.stanford.edu/pssistanford-recycling/frequently-asked-questions/frequently-asked-questions-benefits-recycling">Frequently Asked Questions on the Benefits of Recycling</a>
+                    <br/><br/><br/><br/><br/><br/><br/>
+                
                 </p>
+
+
             </div>
 
             <Footer/>
@@ -64,6 +68,7 @@ const pageStyles = {
     height: 500,
     width: "60%",
     marginTop: "5%",
+    marginBottom: "10%",
     marginLeft: "20%",
     fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
